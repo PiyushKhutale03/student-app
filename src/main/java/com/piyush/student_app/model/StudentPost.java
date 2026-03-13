@@ -15,7 +15,7 @@ import java.util.List;
 public class StudentPost {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int studentId;
+    private Integer studentId; 
     private String studentName;
     private int studentClass;
     private List<Integer> marks;
